@@ -119,6 +119,8 @@ def MaxPairWiseProductFast(arr):
 
 
 def main():
+  """
+  # stress test
     while True:
         value = randint(2, 10)
         print(value)
@@ -136,7 +138,7 @@ def main():
             break
         else:
             print("\nok")
-
+    """
     n = sys.stdin.readline()
     arr = sys.stdin.readline()
     result = MaxPairWiseProduct(list(map(int, arr.split())))
