@@ -3,7 +3,8 @@
 ## Algorithmic Toolbox
 
 test locally to see the error (W1)
-stress test, no right solution gives two different answer (W1)
+
+stress test, no one right solution gives two different answer (W1)
 
 ### Week 1
 
