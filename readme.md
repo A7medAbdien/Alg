@@ -141,7 +141,7 @@ def main():
     """
     n = sys.stdin.readline()
     arr = sys.stdin.readline()
-    result = MaxPairWiseProduct(list(map(int, arr.split())))
+    result = MaxPairWiseProductFast(list(map(int, arr.split())))
     print(result)
 
 
