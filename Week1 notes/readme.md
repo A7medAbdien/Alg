@@ -26,7 +26,7 @@ print(a+b)
 
 ---
 
-## Maximum Pairwise Product:
+## Maximum Pairwise Product
 
 ### first attempt, too mush time
 
