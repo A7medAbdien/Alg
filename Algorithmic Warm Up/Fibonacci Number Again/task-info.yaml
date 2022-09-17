@@ -119,6 +119,9 @@ files:
         if all_tests_passed:
             passed()
   learner_created: false
+- name: readme.md
+  visible: true
+  learner_created: true
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/discussions
 status: Unchecked
 feedback:
