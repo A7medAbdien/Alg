@@ -11,3 +11,9 @@ Thus, in rare cases when a greedy strategy works, one should be able to prove it
 ```py
 return money//10 + (money % 10)//5 + money % 5
 ```
+
+Note: this works for 10 5 1, because 10 is 5x2 otherwise it would be
+
+```py
+return money//6 + (money % 6)//4 + (money % 6) % 4
+```
