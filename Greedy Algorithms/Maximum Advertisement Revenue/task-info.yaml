@@ -7,13 +7,13 @@ files:
   visible: true
   placeholders:
   - offset: 846
-    length: 9
+    length: 462
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 846
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -55,22 +55,22 @@ files:
   visible: true
   placeholders:
   - offset: 443
-    length: 9
+    length: 34
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 443
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 838
-    length: 9
+  - offset: 863
+    length: 11
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 838
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -138,4 +138,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/submission">submit
+    to Coursera</a>
+  time: Tue, 20 Sep 2022 01:06:30 UTC
 record: -1

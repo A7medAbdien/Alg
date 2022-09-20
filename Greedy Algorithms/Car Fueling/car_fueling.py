@@ -7,7 +7,24 @@ def compute_min_number_of_refills(d, m, stops):
     assert 1 <= len(stops) <= 300
     assert 0 < stops[0] and all(stops[i] < stops[i + 1] for i in range(len(stops) - 1)) and stops[-1] < d
 
-    type here
+    location, result = 0, 0
+
+    while stops:
+        if location + m >= d:
+            return result
+        if (location + m < d) and (location + m < stops[0]):
+            return -1
+        new_location = location
+        while stops and (location + m < d) and (location + m >= stops[0]):
+            # print(f" stops={stops} Cloc={new_location} loc={location} result={result}")
+            new_location = stops[0]
+            stops.pop(0)
+        result += 1
+        # print(f"out result={result}")
+        location = new_location
+    if location + m < d:
+        return -1
+    return result
 
 
 if __name__ == '__main__':

@@ -23,12 +23,24 @@ def max_dot_product(first_sequence, second_sequence):
     assert all(0 <= f <= 10 ** 5 for f in first_sequence)
     assert all(0 <= s <= 10 ** 5 for s in second_sequence)
 
-    type here
+    dot_product = []
+
+    while first_sequence:
+        max_first = first_sequence.index(max(first_sequence))
+        max_second = second_sequence.index(max(second_sequence))
+        dot_product.append(first_sequence[max_first] * second_sequence[max_second])
+        # print(f"mf={max_first} ms={max_second} dp={dot_product[-1]}")
+        first_sequence.pop(max_first)
+        second_sequence.pop(max_second)
+    # print(sum(dot_product))
+    return sum(dot_product)
 
 
 if __name__ == '__main__':
     n = int(input())
     prices = list(map(int, input().split()))
     clicks = list(map(int, input().split()))
+    # prices, clicks = [1, 3, 5], [2, 4, 1]
     assert len(prices) == len(clicks) == n
     print(max_dot_product(prices, clicks))
+

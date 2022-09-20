@@ -6,14 +6,14 @@ files:
 - name: maximum_loot.py
   visible: true
   placeholders:
-  - offset: 318
-    length: 9
+  - offset: 314
+    length: 499
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 318
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -42,8 +42,8 @@ files:
 - name: maximum_loot_unit_tests.py
   visible: true
   placeholders:
-  - offset: 282
-    length: 9
+  - offset: 270
+    length: 38
     placeholder_text: type here
     initial_state:
       length: 9
@@ -98,4 +98,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/submission">submit
+    to Coursera</a>
+  time: Tue, 20 Sep 2022 01:20:23 UTC
 record: -1
