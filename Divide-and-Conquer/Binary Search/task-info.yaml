@@ -4,22 +4,22 @@ files:
   visible: true
   placeholders:
   - offset: 241
-    length: 9
+    length: 14
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 241
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 520
-    length: 9
+  - offset: 525
+    length: 36
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 520
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -106,13 +106,13 @@ files:
   visible: true
   placeholders:
   - offset: 288
-    length: 9
+    length: 501
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 288
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -142,4 +142,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/submission">submit
+    to Coursera</a>
+  time: Thu, 22 Sep 2022 04:57:06 UTC
 record: -1
