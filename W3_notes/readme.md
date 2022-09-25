@@ -21,3 +21,11 @@ edge cases: if all elements are grater than the key, return low-1
 to solve the translation problem, where we have two arrays each element has the translation of its value in the corresponding index:
 
 we created an augmented array, an array have the indexes of sorted array
+
+## polynomial Multiplication
+
+## Master Theorem
+
+rather than create recurrent tree each time to calculate the amount of work at each level, the Master theorem is a formula to solve that
+
+The proof of Master theorem done by Geometric series
