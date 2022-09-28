@@ -29,3 +29,19 @@ we created an augmented array, an array have the indexes of sorted array
 rather than create recurrent tree each time to calculate the amount of work at each level, the Master theorem is a formula to solve that
 
 The proof of Master theorem done by Geometric series
+
+## Selection Sort
+
+there are other type od algorithms, for sorting: insertion sort, bubble sort
+
+## Merge sort
+
+consider to be the optimal, n*log(n)
+
+### proof that is the optimal, for any comparison based algorithm
+
+convert to tree, proof the tree depth is n!, log2(n!) = big-theta(n*log(n))
+
+## non-comparison algorithm, Counting Sort
+
+works only for small integers, Count then sort
