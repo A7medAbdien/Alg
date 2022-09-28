@@ -6,15 +6,15 @@ files:
 - name: majority_element.py
   visible: true
   placeholders:
-  - offset: 268
-    length: 9
+  - offset: 264
+    length: 338
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 268
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     # python3
 
@@ -43,14 +43,14 @@ files:
   visible: true
   placeholders:
   - offset: 296
-    length: 9
+    length: 12
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 296
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
   text: |
     import unittest
     from majority_element import majority_element, majority_element_naive
@@ -124,5 +124,9 @@ files:
             passed()
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/discussions
-status: Unchecked
+status: Failed
+feedback:
+  message: Some unit tests failed. Please fix your code, ensure that all unit tests
+    pass, and try again.
+  time: Wed, 28 Sep 2022 10:51:26 UTC
 record: -1
