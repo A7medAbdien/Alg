@@ -8,9 +8,10 @@ class TestQuickSort(unittest.TestCase):
         for array in [
             ([1, 2, 3]),
             ([3, 2, 1]),
-            type here
+            [9, 7, 5, 11, 12, 2, 14, 3, 10, 6]
         ]:
             sorted_array = sorted(list(array))
+            # print("------------------------"+str(sorted_array))
             randomized_quick_sort(array, 0, len(array) - 1)
             self.assertEqual(array, sorted_array)
 

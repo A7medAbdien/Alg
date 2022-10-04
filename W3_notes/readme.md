@@ -45,3 +45,9 @@ convert to tree, proof the tree depth is n!, log2(n!) = big-theta(n*log(n))
 ## non-comparison algorithm, Counting Sort
 
 works only for small integers, Count then sort
+
+we could use an algorithm then after some running time switch to another one
+
+## [QuickSort algorithm](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/pc/challenge-implement-partition)
+
+when we have two recursive calls we call that tail recursion, solution: 1. change tha if to a while, then change the left to the next middle
