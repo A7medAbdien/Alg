@@ -6,24 +6,24 @@ files:
 - name: number_of_inversions_unit_tests.py
   visible: true
   placeholders:
-  - offset: 283
-    length: 9
+  - offset: 270
+    length: 0
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 283
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-  - offset: 814
-    length: 9
+    status: Failed
+  - offset: 784
+    length: 0
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 814
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     import unittest
     from number_of_inversions import compute_inversions, compute_inversions_naive
@@ -86,14 +86,14 @@ files:
   visible: true
   placeholders:
   - offset: 277
-    length: 9
+    length: 820
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 277
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     # python3
 
@@ -118,5 +118,8 @@ files:
         print(compute_inversions(elements))
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/discussions
-status: Unchecked
+status: Failed
+feedback:
+  message: Don't just delete task text
+  time: Wed, 05 Oct 2022 10:11:50 UTC
 record: -1

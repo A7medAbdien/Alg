@@ -7,7 +7,7 @@ files:
   visible: true
   placeholders:
   - offset: 264
-    length: 865
+    length: 708
     placeholder_text: type here
     initial_state:
       length: 9
@@ -128,5 +128,5 @@ status: Unchecked
 feedback:
   message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/submission">submit
     to Coursera</a>
-  time: Tue, 04 Oct 2022 10:22:44 UTC
+  time: Wed, 05 Oct 2022 09:23:18 UTC
 record: -1

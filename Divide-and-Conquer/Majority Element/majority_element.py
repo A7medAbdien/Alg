@@ -21,13 +21,16 @@ def majority_element(elements):
     # print(f"b: {b}")
     if list == type(a):
         if b in a:
-            return 1
+            if elements.count(b)> len(elements)//2:
+                return 1
     if list == type(b):
         if a in b:
-            return 1
+            if elements.count(a) > len(elements) // 2:
+                return 1
     if (list != type(a)) or (list != type(b)):
         if a == b:
-            return 1
+            if elements.count(a) > len(elements) // 2:
+                return 1
     return 0
 
 
@@ -39,21 +42,10 @@ def most(elements):
     return elements
 
 
-# find most appeared
-def most_e(elements):
-    m = len(elements) // 2
-    if len(elements) > 2:
-        return majority_element(elements[m:]) + majority_element(elements[:m])
-    for e in elements:
-        print(f"{e} {elements.count(e)} {len(elements) // 2}")
-        if (elements.count(e) > m) & (m != 0):
-            return 1
-
-
 if __name__ == '__main__':
-    # input_n = int(input())
-    # input_elements = list(map(int, input().split()))
-    input_elements = [1, 1,2]
-    # assert len(input_elements) == input_n
+    input_n = int(input())
+    input_elements = list(map(int, input().split()))
+    # input_elements = [8, 1, 5, 111, 5, 11, 5, 5, 5, 11111]
+    assert len(input_elements) == input_n
     print(majority_element(input_elements))
-    print(majority_element_naive(input_elements))
+    # print(majority_element_naive(input_elements))
